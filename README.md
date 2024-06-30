@@ -1,6 +1,8 @@
 # Test adaptive ui
 
 ![Alt text](screens/home-screen.png "Mobile version")
+![Alt text](screens/home-screen-web.png "Mobile version")
+![Alt text](screens/screen-tablet.png "Mobile version")
 
 ## Installation
 
