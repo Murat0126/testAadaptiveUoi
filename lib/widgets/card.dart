@@ -40,9 +40,13 @@ class TestCard extends StatelessWidget {
               children: [
                 Padding(
                   padding: const EdgeInsets.only(left: 8.0, bottom: 8.0),
-                  child: Text(
-                    cardName,
-                    style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+                  child: LayoutBuilder(
+                    builder: (BuildContext context, BoxConstraints constraints) {
+                      return Text(
+                        cardName,
+                        style: TextStyle(fontSize: constraints.maxHeight / 5),
+                      );
+                    },
                   ),
                 ),
               ],

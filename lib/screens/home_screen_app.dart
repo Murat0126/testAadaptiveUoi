@@ -50,9 +50,12 @@ class HomeScreenApp extends StatelessWidget {
                         ),
                         onPressed: () {},
                       ),
-                      const Text(
-                        "Рабочие пространства",
-                        style: TextStyle(fontSize: 20),
+                      const FittedBox(
+                        fit: BoxFit.scaleDown,
+                        child: Text(
+                          "Рабочие пространства",
+                          style: TextStyle(fontSize: 20),
+                        ),
                       ),
                       IconButton(
                         icon: const Icon(
