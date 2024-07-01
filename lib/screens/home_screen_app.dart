@@ -27,7 +27,6 @@ class HomeScreenApp extends StatelessWidget {
       Project(title: "Onest", color: Colors.purple.shade300),
       Project(title: "Probka на цветном", color: Colors.blue.shade300),
     ];
-    final FocusNode _textFieldFocusNode = FocusNode();
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 150,
@@ -77,7 +76,6 @@ class HomeScreenApp extends StatelessWidget {
                       onTapOutside: (event) {
                         FocusManager.instance.primaryFocus?.unfocus();
                       },
-                        // _textFieldFocusNode.unfocus();
                       onChanged: (value) {},
                       decoration: const InputDecoration(
                           hintText: "Поиск",

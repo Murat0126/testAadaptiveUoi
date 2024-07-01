@@ -15,11 +15,7 @@ class TestCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      // height: size,
-      // width: 250,
-      // decoration: BoxDecoration(
           color: cardColor,
-      //     borderRadius: const BorderRadius.all(Radius.circular(10))),
       child: Column(
         children: [
            Expanded(
