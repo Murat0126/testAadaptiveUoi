@@ -31,7 +31,7 @@ class HomeScreenApp extends StatelessWidget {
       appBar: AppBar(
         toolbarHeight: 150,
         actions: <Widget>[
-          Expanded(
+          Flexible(
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Column(
@@ -50,12 +50,9 @@ class HomeScreenApp extends StatelessWidget {
                         ),
                         onPressed: () {},
                       ),
-                      const FittedBox(
-                        fit: BoxFit.scaleDown,
-                        child: Text(
-                          "Рабочие пространства",
-                          style: TextStyle(fontSize: 20),
-                        ),
+                      const Text(
+                        "Рабочие пространства",
+                        style: TextStyle(fontSize: 20),
                       ),
                       IconButton(
                         icon: const Icon(

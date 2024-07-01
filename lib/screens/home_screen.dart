@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
       },
       desktop: (context){
         ScreenUtilBreakPoints.initWebDesignSize(context);
-        return const HomeScreenApp(cardSize: 450,crossAxisCount: 3);
+        return const HomeScreenApp(cardSize: 450,crossAxisCount: 4);
       },
     );
   }
